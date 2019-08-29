@@ -1,0 +1,39 @@
+{
+  "name": "nada",
+  "displayName": "Nada Theme",
+  "description": "A dark Visual Studio Theme",
+  "version": "1.0.0",
+  "publisher": "nada",
+  "license": "MIT",
+  "author": {
+    "name": "Adan Perez"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adanperez/nada-theme"
+  },
+  "engines": {
+    "vscode": "^1.37.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "nada",
+    "awesome"
+  ],
+  "icon": "assets/nada-icon.png",
+  "galleryBanner": {
+    "color": "#212733",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [{
+      "label": "Nada",
+      "uiTheme": "vs-dark",
+      "path": "./themes/nada-color-theme.json"
+    }]
+  }
+}
