@@ -3,7 +3,9 @@
 </div>
 
 # Nada Theme
-A theme about nothing. Elements of this theme are inpsired by *Dracula* and *Field Lights* themes. 
+A dark theme full of Nada. 
+
+Elements of this theme are inpsired by *Dracula* and *Field Lights* themes. 
 
 Pairs well with *Verdandi Theme* Icons.
 
