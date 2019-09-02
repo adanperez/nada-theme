@@ -5,10 +5,12 @@
 # Nada Theme
 A dark theme full of Nada. 
 
+Made for Typescript, Javascript, Python, CSS, SASS, and many others.
+
+![](assets/example.png)
+
 Elements of this theme are inpsired by *Dracula* and *Field Lights* themes. 
 
 Pairs well with *Verdandi Theme* Icons.
-
-![](assets/example.png)
 
 &copy; Adan Perez 2019

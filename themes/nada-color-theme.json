@@ -208,7 +208,7 @@
     },
     {
       "name": "Operator, Misc",
-      "scope": "constant.other.color, meta.tag, punctuation.separator.inheritance.php, punctuation.section.embedded, keyword.other.substitution",
+      "scope": "constant.other.color, punctuation.separator.inheritance.php, punctuation.section.embedded, keyword.other.substitution",
       "settings": {
         "foreground": "#80D4FF"
       }
@@ -218,13 +218,6 @@
       "scope": "entity.name.tag, meta.tag.sgml, markup.deleted.git_gutter",
       "settings": {
         "foreground": "#5CCFE6"
-      }
-    },
-    {
-      "name": "JSX Tag",
-      "scope": "meta.tag.jsx",
-      "settings": {
-        "foreground": "#D9D7CE"
       }
     },
     {
@@ -719,7 +712,8 @@
         "meta.tag.jsx meta.tag.attributes.jsx meta.embedded.expression.jsx string.quoted.double.jsx",
         "meta.tag.tsx meta.tag.attributes.tsx meta.embedded.expression.tsx string.quoted.double.tsx",
         "source.css.scss meta.attribute-selector.scss",
-        "string.other.link"
+        "string.other.link",
+        "meta.tag meta.embedded.expression string"
       ],
       "settings": {
         "foreground": "#53C88C"
@@ -730,7 +724,9 @@
       "scope": [
         "constant.character.escape",
         "punctuation.definition.string.begin",
-        "punctuation.definition.string.end"
+        "punctuation.definition.string.end",
+        "meta.embedded.expression punctuation.definition.string.begin",
+        "meta.embedded.expression punctuation.definition.string.end"
       ],
       "settings": {
         "foreground": "#53c88b9d"
@@ -772,7 +768,14 @@
         "punctuation.definition.string.end.markdown",
         "punctuation.definition.metadata.markdown",
         "punctuation.separator.key-value.mapping.yaml",
-        "source.css.scss punctuation.separator.key-value"
+        "source.css.scss punctuation.separator.key-value",
+        "punctuation.definition.arguments.begin",
+        "punctuation.definition.arguments.end",
+        "punctuation.section.function.begin",
+        "punctuation.separator.period",
+        "punctuation.separator.colon",
+        "punctuation.definition.dict.end",
+        "punctuation.definition.dict.begin"
       ],
       "settings": {
         "foreground": "#7B94A5"
@@ -851,13 +854,11 @@
     {
       "name": "HTML no tags",
       "scope": [
-        "meta.tag.js",
-        "meta.tag.ts",
-        "meta.tag.without-attributes.js",
-        "meta.tag.without-attributes.ts"
+        "meta.tag",
+        "meta.tag.without-attributes",
       ],
       "settings": {
-        "foreground": "#9fc097"
+        "foreground": "#bbba74"
       }
     },
     {
@@ -877,14 +878,6 @@
     },
     {
       "scope": [
-        "meta.tag"
-      ],
-      "settings": {
-        "foreground": "#b2d2e2"
-      }
-    },
-    {
-      "scope": [
         "punctuation.definition.tag.begin",
         "punctuation.definition.tag.end",
         "entity.name.tag",
@@ -893,7 +886,7 @@
         "entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#87a2d1"
+        "foreground": "#87a2d1de"
       }
     },
     {
@@ -949,8 +942,9 @@
     {
       "scope": [
         "meta.tag string",
-        "meta.tag.js.jsx meta.tag.attributes.js.jsx string.quoted.double.js.jsx",
-        "meta.tag.js.tsx meta.tag.attributes.ts.tsx string.quoted.double.ts.tsx",
+        "meta.tag meta.tag.attributes.js.jsx string.quoted.double",
+        "meta.tag punctuation.definition.string.begin",
+        "meta.tag punctuation.definition.string.end",
         "meta.embedded.expression meta.tag string"
       ],
       "settings": {
