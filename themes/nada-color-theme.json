@@ -775,7 +775,8 @@
         "punctuation.separator.period",
         "punctuation.separator.colon",
         "punctuation.definition.dict.end",
-        "punctuation.definition.dict.begin"
+        "punctuation.definition.dict.begin",
+        "punctuation.definition.section.case-statement"
       ],
       "settings": {
         "foreground": "#7B94A5"
