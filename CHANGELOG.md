@@ -1,7 +1,10 @@
 # Change Log
 
+## 1.4.0
+- Updated panel title color and tweaked git file colors.
+
 ## 1.3.0
-- Fixed switch case statements
+- Fixed switch case statements.
 
 ## 1.2.0
 - Muted tsx/jsx html colors and fixed attribute quote strings.  Tweaked some python colors.
