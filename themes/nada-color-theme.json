@@ -20,7 +20,7 @@
     "gitDecoration.deletedResourceForeground": "#ad4949",
     "gitDecoration.ignoredResourceForeground": "#6d757e",
     "gitDecoration.submoduleResourceForeground": "#8db9e2",
-    "gitDecoration.untrackedResourceForeground": "#bbba74b2",
+    "gitDecoration.untrackedResourceForeground": "#837a66",
     "editor.selectionHighlightBackground": "#47E18A",
     "editor.selectionBackground": "#3b4766e1",
     "editor.findMatchHighlightBackground": "#ff99ee69",
@@ -93,6 +93,8 @@
     "list.hoverBackground": "#212733",
     "list.hoverForeground": "#D9D7CE",
     "list.inactiveSelectionBackground": "#212733",
+    "list.inactiveFocusBackground": "#212733",
+    "list.dropBackground": "#212733",
     "list.inactiveSelectionForeground": "#D9D7CE",
     "notificationCenter.border": "#1A1F28",
     "notificationCenterHeader.background": "#1d232e",
@@ -637,7 +639,8 @@
         "entity.name.type",
         "entity.name.type.enum",
         "meta.type.parameters",
-        "meta.type.parameters entity.name.type"
+        "meta.type.parameters entity.name.type",
+        "new.expr meta.type.annotation entity.name.type",
       ],
       "settings": {
         "foreground": "#d19393"
@@ -776,7 +779,8 @@
         "punctuation.separator.colon",
         "punctuation.definition.dict.end",
         "punctuation.definition.dict.begin",
-        "punctuation.definition.section.case-statement"
+        "punctuation.definition.section.case-statement",
+        "meta.decorator meta.objectliteral meta.brace.round",
       ],
       "settings": {
         "foreground": "#7B94A5"
@@ -826,7 +830,8 @@
         "support.type",
         "new.expr",
         "meta.method.groovy",
-        "meta.method.body.java"
+        "meta.method.body.java",
+        "meta.decorator meta.objectliteral entity.name.function",
       ],
       "settings": {
         "foreground": "#D9D7CE"
@@ -859,7 +864,7 @@
         "meta.tag.without-attributes",
       ],
       "settings": {
-        "foreground": "#bbba74"
+        "foreground": "#bbba74e3"
       }
     },
     {
@@ -905,7 +910,10 @@
       "scope": [
         "new.expr entity.name.type",
         "variable.other.env",
-        "keyword.other.definition.ini"
+        "keyword.other.definition.ini",
+        "meta.decorator",
+        "meta.decorator entity.name.function",
+        "meta.decorator meta.brace.round",
       ],
       "settings": {
         "foreground": "#bbba74"

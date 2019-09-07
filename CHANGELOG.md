@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.5.0
+- Added Decorator support for TS
+
 ## 1.4.0
 - Updated panel title color and tweaked git file colors.
 
