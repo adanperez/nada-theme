@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.6.0
+- Fixed function types for TS
+
 ## 1.5.0
 - Added Decorator support for TS
 

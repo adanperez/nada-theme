@@ -603,7 +603,9 @@
     {
       "name": "type color settings",
       "scope": [
+        "meta.type.paren.cover meta.brace",
         "meta.object.type keyword.operator.optional",
+        "meta.type.declaration keyword.operator.optional",
         "meta.type.tuple meta.brace.square",
         "meta.type.tuple punctuation.definition.typeparameters.begin",
         "meta.type.tuple punctuation.definition.typeparameters.end",
@@ -671,7 +673,9 @@
         "meta.object.type variable",
         "meta.object.type entity.name.function",
         "meta.interface variable.object.property",
-        "meta.interface entity.name.function"
+        "meta.interface entity.name.function",
+        "meta.type.declaration variable.parameter",
+        "meta.block meta.object.type punctuation.definition.block",
       ],
       "settings": {
         "foreground": "#bd7878"
@@ -864,7 +868,7 @@
         "meta.tag.without-attributes",
       ],
       "settings": {
-        "foreground": "#bbba74e3"
+        "foreground": "#30ac83"
       }
     },
     {
