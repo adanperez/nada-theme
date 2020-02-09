@@ -1,10 +1,13 @@
 # Change Log
 
+## 1.7.0
+- Updated logo.
+
 ## 1.6.0
-- Fixed function types for TS
+- Fixed function types for TS.
 
 ## 1.5.0
-- Added Decorator support for TS
+- Added Decorator support for TS.
 
 ## 1.4.0
 - Updated panel title color and tweaked git file colors.
