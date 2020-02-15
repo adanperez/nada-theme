@@ -1,7 +1,7 @@
 {
   "name": "nada",
   "displayName": "Nada Theme",
-  "description": "A dark Visual Studio Theme",
+  "description": "A dark theme full of Nada.",
   "version": "1.7.0",
   "publisher": "nada",
   "license": "MIT",
@@ -22,7 +22,8 @@
     "theme",
     "dark",
     "nada",
-    "awesome"
+    "awesome",
+    "colorful"
   ],
   "icon": "assets/nada-icon.png",
   "galleryBanner": {
@@ -30,12 +31,10 @@
     "theme": "dark"
   },
   "contributes": {
-    "themes": [
-      {
-        "label": "Nada",
-        "uiTheme": "vs-dark",
-        "path": "./themes/nada-color-theme.json"
-      }
-    ]
+    "themes": [{
+      "label": "Nada",
+      "uiTheme": "vs-dark",
+      "path": "./themes/nada-color-theme.json"
+    }]
   }
 }

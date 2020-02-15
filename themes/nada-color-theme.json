@@ -202,13 +202,6 @@
       }
     },
     {
-      "name": "Keyword, Storage",
-      "scope": "keyword, storage.type, storage.modifier",
-      "settings": {
-        "foreground": "#FFAE57"
-      }
-    },
-    {
       "name": "Operator, Misc",
       "scope": "constant.other.color, punctuation.separator.inheritance.php, punctuation.section.embedded, keyword.other.substitution",
       "settings": {
@@ -794,6 +787,7 @@
       "scope": [
         "keyword",
         "keyword.operator.new.ts",
+        "keyword.operator.expression.import",
         "storage.modifier",
         "storage.type.function",
         "variable.language",
@@ -868,7 +862,7 @@
         "meta.tag.without-attributes",
       ],
       "settings": {
-        "foreground": "#30ac83"
+        "foreground": "#997171"
       }
     },
     {

@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.8.0
+- Fixed dynaimc imports and modified HTML text.
+
 ## 1.7.0
 - Updated logo.
 
