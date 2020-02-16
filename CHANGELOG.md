@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.9.0
+- Modified HTML text.
+
 ## 1.8.0
 - Fixed dynaimc imports and modified HTML text.
 
