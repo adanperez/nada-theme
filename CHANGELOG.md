@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.10.0
+- Toned down diffEditor colors.
+
 ## 1.9.0
 - Modified HTML text.
 
