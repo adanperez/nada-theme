@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.11.0
+- Added Svelte colors.  Fixed css issues. Modified text color in elements.
+
 ## 1.10.0
 - Toned down diffEditor colors.
 

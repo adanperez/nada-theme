@@ -23,7 +23,10 @@
     "dark",
     "nada",
     "awesome",
-    "colorful"
+    "colorful",
+    "css",
+    "react",
+    "svelte"
   ],
   "icon": "assets/nada-icon.png",
   "galleryBanner": {
@@ -31,12 +34,10 @@
     "theme": "dark"
   },
   "contributes": {
-    "themes": [
-      {
-        "label": "Nada",
-        "uiTheme": "vs-dark",
-        "path": "./themes/nada-color-theme.json"
-      }
-    ]
+    "themes": [{
+      "label": "Nada",
+      "uiTheme": "vs-dark",
+      "path": "./themes/nada-color-theme.json"
+    }]
   }
 }
