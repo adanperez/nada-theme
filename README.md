@@ -7,10 +7,9 @@ A dark theme full of Nada.
 
 Made for Typescript, Javascript, React, Svelte, CSS, SASS, Python, and many others.
 
-![](assets/example.png)
+![](assets/example2.jpg)
+![](assets/example1.jpg)
 
 Elements of this theme are inspired by *Dracula* and *Field Lights* themes. 
-
-Pairs well with *Verdandi Theme* Icons.
 
 &copy; Adan Perez 2020

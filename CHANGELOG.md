@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.13.0
+- Fixed missing CSS function/keyframe begin and end colors.
+
 ## 1.11.0
 - Added Svelte colors.  Fixed css issues. Modified text color in elements.
 
@@ -10,7 +13,7 @@
 - Modified HTML text.
 
 ## 1.8.0
-- Fixed dynaimc imports and modified HTML text.
+- Fixed dynamic imports and modified HTML text.
 
 ## 1.7.0
 - Updated logo.
