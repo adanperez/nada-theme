@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.15.0
+- Fixed Svelte start tag.
+
 ## 1.13.0
 - Fixed missing CSS function/keyframe begin and end colors.
 

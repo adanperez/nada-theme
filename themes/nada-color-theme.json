@@ -786,7 +786,8 @@
         "punctuation.section.media.begin.bracket.curly.css",
         "punctuation.section.media.end.bracket.curly.css",
         "punctuation.terminator.rule.css",
-        "meta.selector.css"
+        "meta.selector.css",
+        "meta.tag.start.svelte"
       ],
       "settings": {
         "foreground": "#7B94A5"
