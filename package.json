@@ -28,18 +28,16 @@
     "react",
     "svelte"
   ],
-  "icon": "assets/nada-icon.png",
+  "icon": "assets/nada-icon-v2.png",
   "galleryBanner": {
     "color": "#212733",
     "theme": "dark"
   },
   "contributes": {
-    "themes": [
-      {
-        "label": "Nada",
-        "uiTheme": "vs-dark",
-        "path": "./themes/nada-color-theme.json"
-      }
-    ]
+    "themes": [{
+      "label": "Nada",
+      "uiTheme": "vs-dark",
+      "path": "./themes/nada-color-theme.json"
+    }]
   }
 }

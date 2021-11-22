@@ -1,5 +1,8 @@
 # Change Log
 
+## 1.16.0
+- Updated logo and README. Removed unused styles.
+
 ## 1.15.0
 - Fixed Svelte start tag.
 

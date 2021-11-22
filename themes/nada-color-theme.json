@@ -179,12 +179,6 @@
     "widget.shadow": "#11141AB3",
   },
   "tokenColors": [{
-      "settings": {
-        "foreground": "#D9D7CE",
-        "background": "#212733"
-      }
-    },
-    {
       "name": "Comments",
       "scope": "comment, punctuation.definition.comment",
       "settings": {
@@ -270,7 +264,6 @@
       "name": "Deprecated",
       "scope": "invalid.deprecated",
       "settings": {
-        "background": "#FFAE57",
         "foreground": "#FFFFFF"
       }
     },
@@ -411,7 +404,6 @@
         "markup.table"
       ],
       "settings": {
-        "background": "#3cadd71a",
         "foreground": "#5CCFE6"
       }
     },
@@ -456,7 +448,6 @@
       "name": "Markdown - Raw Block Fenced",
       "scope": "markup.raw.block.fenced.markdown",
       "settings": {
-        "background": "#ffffff10",
         "foreground": "#D9D7CE"
       }
     },
@@ -464,7 +455,6 @@
       "name": "Markdown - Fenced Bode Block",
       "scope": "punctuation.definition.fenced.markdown, variable.language.fenced.markdown",
       "settings": {
-        "background": "#ffffff10",
         "foreground": "#5C6773"
       }
     },
@@ -480,7 +470,6 @@
       "name": "Markdown - Separator",
       "scope": "meta.separator",
       "settings": {
-        "background": "#ffffff10",
         "fontStyle": "bold",
         "foreground": "#5C6773"
       }
