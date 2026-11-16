@@ -1,10 +1,10 @@
 {
-  // Nada Theme for Visual Studio Code.
+  // Nada Night theme for Visual Studio Code.
   //
   // This file is JSON with comments (JSONC); VS Code and `vsce` both accept that.
   // The schema below gives you completion and validation for every key while editing.
   "$schema": "vscode://schemas/color-theme",
-  "name": "Nada Theme",
+  "name": "Nada Night",
   "type": "dark",
 
   // Docs

@@ -1,5 +1,10 @@
 # Change Log
 
+## 2.0.0
+- Added **Nada Night**, a second theme. The extension now offers both Nada and Nada Night.
+- Nada Night: darker `#0b0f19` / `#0e1320` surfaces, cyan `#9ccfd8` accent, softer `#d3d3d3` text, amber TypeScript types.
+- Nada Night: added Markdown preview colors (quotes, code blocks, rules), JSDoc descriptions, Tailwind `@theme` braces, and diff line backgrounds.
+
 ## 1.16.0
 - Updated logo and README. Removed unused styles.
 

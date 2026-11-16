@@ -1,8 +1,8 @@
 {
   "name": "nada",
   "displayName": "Nada Theme",
-  "description": "A dark theme full of Nada.",
-  "version": "1.16.0",
+  "description": "Two dark themes full of Nada: Nada and Nada Night.",
+  "version": "2.0.0",
   "publisher": "nada",
   "license": "MIT",
   "author": {
@@ -39,6 +39,11 @@
         "label": "Nada",
         "uiTheme": "vs-dark",
         "path": "./themes/nada-color-theme.json"
+      },
+      {
+        "label": "Nada Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nada-night-color-theme.json"
       }
     ]
   }
