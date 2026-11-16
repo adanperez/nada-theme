@@ -1,5 +1,14 @@
 # Change Log
 
+## 2.1.0
+- Nada: reorganized `themes/nada-color-theme.json` to match Nada Night. Workbench colors are grouped by UI area and sorted A-Z, syntax rules are grouped by language, and the file has comments and links to the VS Code docs. Colors are unchanged except where noted below.
+- Nada: merged duplicate rules so each scope appears once with the color that was already winning, and removed selectors that never match in VS Code (`*url*` wildcards, `-` exclusions such as the JSON key levels, and Sublime-only scopes like `git_gutter`).
+- Nada: added Markdown preview colors (quote border, code block and preformatted backgrounds, horizontal rules), an input toggle hover color, diff line and gutter backgrounds, and a teal color for CSS custom properties.
+- Nada: picked up Night's newer scopes: JSDoc descriptions and tags, Tailwind `@theme` braces, CSS list commas, Markdown link brackets, and more TypeScript type-declaration punctuation.
+- Nada: `editorIndentGuide.background` is now `editorIndentGuide.background1`, since the old key is deprecated (VS Code 1.71+).
+- Nada Night: default text is now a warmer `#e4e0dd` (was `#d3d3d3`).
+- Nada Night: TypeScript types moved from amber to a red/rose family, matching Nada.
+
 ## 2.0.0
 - Added **Nada Night**, a second theme. The extension now offers both Nada and Nada Night.
 - Nada Night: darker `#0b0f19` / `#0e1320` surfaces, cyan `#9ccfd8` accent, softer `#d3d3d3` text, amber TypeScript types.

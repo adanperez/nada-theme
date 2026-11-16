@@ -15,7 +15,7 @@
   //
   // Core palette (reuse these instead of adding new shades):
   //   #0b0f19  editor, tab bar, title bar        #0e1320  side bar, panel, status bar, activity bar
-  //   #26233a  selected/hovered rows, active tab  #d3d3d3  default text
+  //   #26233a  selected/hovered rows, active tab  #e4e0dd  default text
   //   #738699  UI text (muted)                    #67b979  accent: buttons, badges, cursor, links
   //   #53C88C  strings                            #e2af96  keywords
   //   #5CCFE6  cyan accents                       #bbba74  calls, decorators, markup emphasis
@@ -43,7 +43,7 @@
     "textLink.activeForeground": "#9ccfd8",
     "textLink.foreground": "#9ccfd8",
     "textPreformat.background": "#0e1320",
-    "textPreformat.foreground": "#d3d3d3",
+    "textPreformat.foreground": "#e4e0dd",
     "textSeparator.foreground": "#26233a", // horizontal rules (---)
 
     // --- Errors & warnings -----------------------------------------------------
@@ -72,7 +72,7 @@
     "dropdown.listBackground": "#0e1320",
     "input.background": "#21202e",
     "input.border": "#7386994C",
-    "input.foreground": "#d3d3d3",
+    "input.foreground": "#e4e0dd",
     "input.placeholderForeground": "#7386998A",
     "inputOption.hoverBackground": "#26233a",
     "inputOption.activeBorder": "#7386998A",
@@ -88,16 +88,16 @@
     // --- Lists & trees ---------------------------------------------------------
     // docs: Theme Color Reference > Lists and trees
     "list.activeSelectionBackground": "#26233a",
-    "list.activeSelectionForeground": "#d3d3d3",
+    "list.activeSelectionForeground": "#e4e0dd",
     "list.dropBackground": "#26233a",
     "list.focusBackground": "#26233a",
-    "list.focusForeground": "#d3d3d3",
+    "list.focusForeground": "#e4e0dd",
     "list.highlightForeground": "#FFCC66",
     "list.hoverBackground": "#26233a",
-    "list.hoverForeground": "#d3d3d3",
+    "list.hoverForeground": "#e4e0dd",
     "list.inactiveFocusBackground": "#26233a",
     "list.inactiveSelectionBackground": "#26233a",
-    "list.inactiveSelectionForeground": "#d3d3d3",
+    "list.inactiveSelectionForeground": "#e4e0dd",
 
     // --- Scrollbars ------------------------------------------------------------
     // docs: Theme Color Reference > Scrollbar control
@@ -137,17 +137,17 @@
     "editorGroupHeader.tabsBackground": "#0e1320",
     "editorGroupHeader.tabsBorder": "#26233a",
     "tab.activeBackground": "#26233a",
-    "tab.activeForeground": "#d3d3d3",
+    "tab.activeForeground": "#e4e0dd",
     "tab.border": "#1A1F28",
     "tab.inactiveBackground": "#0b0f19",
     "tab.inactiveForeground": "#516170",
-    "tab.unfocusedActiveForeground": "#d3d3d3AA",
+    "tab.unfocusedActiveForeground": "#e4e0ddAA",
     "tab.unfocusedInactiveForeground": "#738699",
 
     // --- Editor: text, cursor & guides -----------------------------------------
     // docs: Theme Color Reference > Editor colors
     "editor.background": "#0b0f19",
-    "editor.foreground": "#d3d3d3",
+    "editor.foreground": "#e4e0dd",
     "editor.lineHighlightBackground": "#242B38",
     "editor.rangeHighlightBackground": "#242b388A",
     "editorBracketMatch.border": "#7386998A",
@@ -223,7 +223,7 @@
     "panel.background": "#0e1320",
     "panel.border": "#0e1320",
     "panelTitle.activeBorder": "#1A1F28",
-    "panelTitle.activeForeground": "#d3d3d3",
+    "panelTitle.activeForeground": "#e4e0dd",
     "panelTitle.inactiveForeground": "#66737F",
 
     // --- Status bar ------------------------------------------------------------
@@ -275,7 +275,7 @@
     "terminal.ansiYellow": "#c78630",
     "terminal.background": "#0b0f19",
     "terminal.border": "#26233a",
-    "terminal.foreground": "#d3d3d3",
+    "terminal.foreground": "#e4e0dd",
     // "terminal.selectionBackground": "#3b47668c",
     "terminalCursor.foreground": "#67b979"
   },
@@ -313,12 +313,12 @@
         "meta.method.body.java",
         "meta.decorator meta.objectliteral entity.name.function"
       ],
-      "settings": { "foreground": "#d3d3d3" }
+      "settings": { "foreground": "#e4e0dd" }
     },
     {
       "name": "Function parameters",
       "scope": "variable.parameter",
-      "settings": { "foreground": "#d3d3d3", "fontStyle": "italic" }
+      "settings": { "foreground": "#e4e0dd", "fontStyle": "italic" }
     },
     {
       "name": "Other support variables",
@@ -534,7 +534,7 @@
     {
       "name": "Constant properties",
       "scope": "variable.other.constant.property",
-      "settings": { "foreground": "#cec897" }
+      "settings": { "foreground": "#c48c3d" }
     },
     {
       "name": "Character constants",
@@ -590,7 +590,7 @@
         "meta.type.declaration.ts meta.brace.square.ts punctuation.definition.typeparameters.end.ts",
         "meta.object.type.tsx punctuation.terminator.statement.tsx"  
       ],
-      "settings": { "foreground": "#bc541c" }
+      "settings": { "foreground": "#b96767" }
     },
     {
       "name": "Type names",
@@ -606,7 +606,7 @@
         "meta.type.parameters entity.name.type",
         "new.expr meta.type.annotation entity.name.type"
       ],
-      "settings": { "foreground": "#c48c3d" }
+      "settings": { "foreground": "#D19393" }
     },
     {
       "name": "Type members (interface / object type)",
@@ -618,7 +618,7 @@
         "meta.type.declaration variable.parameter",
         "meta.block meta.object.type punctuation.definition.block"
       ],
-      "settings": { "foreground": "#c48c3dcc" }
+      "settings": { "foreground": "#BD7878" }
     },
     {
       "name": "Function type parameters",
@@ -634,7 +634,7 @@
         "entity.name.type.alias",
         "meta.object.type entity.name.type.module"
       ],
-      "settings": { "foreground": "#C48C3D" }
+      "settings": { "foreground": "#ffb3b3" }
     },
     {
       "name": "Namespaces and modules",
@@ -835,7 +835,7 @@
     {
       "name": "Plain text",
       "scope": "text.html.markdown",
-      "settings": { "foreground": "#d3d3d3" }
+      "settings": { "foreground": "#e4e0dd" }
     },
     {
       "name": "Headings",
@@ -915,7 +915,7 @@
         "punctuation.definition.block.begin.svelte",
         "punctuation.definition.block.end.svelte"
       ],
-      "settings": { "foreground": "#cec897" }
+      "settings": { "foreground": "#c48c3d" }
     },
     {
       "name": "Svelte expressions",
