@@ -26,7 +26,8 @@
     "colorful",
     "css",
     "react",
-    "svelte"
+    "svelte",
+    "rust"
   ],
   "icon": "assets/nada-icon-v2.png",
   "galleryBanner": {
